@@ -11,7 +11,7 @@ interface propsType {
 const Card: React.FC<propsType> = ({ title, desc, img, tags }) => {
   return (
     <div
-      className="border border-accent w-[300px] sm:w-[350px]"
+      className="border border-yellow-500 w-[300px] sm:w-[350px]"
       data-aos="zoom-in-up"
     >
       <div>

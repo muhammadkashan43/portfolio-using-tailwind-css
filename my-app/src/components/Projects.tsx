@@ -35,7 +35,7 @@ const data = [
     id: 4,
     title: "static Interactive Resume",
     desc: "A TypeScript-based interactive resume built with HTML and CSS, allowing users to showcase their skills dynamically.",
-    img: "/project_05.jpg",
+    img: "/project_05.png",
     tags: ["HTML", "Node", "CSS", "Typescript"],
   },
   {

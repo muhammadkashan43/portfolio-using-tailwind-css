@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <div className="container pt-8">
       <div className="flex justify-between items-center">
-        <div className="text-xl font-medium">Syeda</div>
+        <div className="text-3xl font-black ml-9 text-yellow-500">Kashan</div>
 
-        <ul className="gap-10 lg:gap-16 hidden md:flex">
+        <ul className="gap-10 lg:gap-16 hidden md:flex text-yellow-500">
           <li className="menuLink">
             <a href="#hero">Home</a> 
           </li>

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
   id="hero"
-  className=" min-h-screen bg-no-repeat bg-[url(/banner_bg.png)] bg-cover"
+  className=" min-h-screen bg-no-repeat bg-[url(/banner_bg.jpg)] bg-cover"
   style={{ backgroundSize: "35%", backgroundPosition: "left 100px top 100px"}} 
 >
 
@@ -15,11 +15,11 @@ const Hero = () => {
         <div className="hidden lg:block"></div>
 
         {/* Changes: Adjusted text size and centering */}
-        <div className="text-[70px] sm:text-[100px] font-bold leading-tight flex justify-center items-center text-white">
+        <div className="text-[30px] mr-32 mb-44 sm:text-[50px] sm:mr-32 lg:text-[80px] font-bold leading-tight flex justify-center items-center text-yellow-500">
           <div>
-            <p data-aos="zoom-in-up">I am</p>
-            <p data-aos="zoom-in-up">Syeda</p>
-            <p data-aos="zoom-in-up">Shanzay</p>
+            <p data-aos="zoom-in-up">My self</p>
+            <p data-aos="zoom-in-up">Muhammad</p>
+            <p data-aos="zoom-in-up">kashan</p>
           </div>
         </div>
       </div>

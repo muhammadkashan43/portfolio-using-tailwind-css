@@ -35,7 +35,7 @@ const Contact = () => {
       <div className="grid md:grid-cols-2 gap-10 md:gap-6">
         {/* Left side: Contact Info */}
         <div className="space-y-8">
-          <h2 className="text-5xl" data-aos="zoom-in-up">
+          <h2 className="text-5xl text-yellow-500" data-aos="zoom-in-up">
             Get in touch
           </h2>
           <p className="text-gray-600 text-[18px] pt-2" data-aos="zoom-in-up">
@@ -58,7 +58,7 @@ const Contact = () => {
               <label htmlFor="name">Name</label>
               <input
                 type="text"
-                className="h-[40px] bg-transparent border border-accent"
+                className="h-[40px] bg-transparent border border-yellow-500"
                 id="name"
                 aria-label="Your name"
                 required
@@ -68,7 +68,7 @@ const Contact = () => {
               <label htmlFor="email">Email</label>
               <input
                 type="email"
-                className="h-[40px] bg-transparent border border-accent"
+                className="h-[40px] bg-transparent border border-yellow-500"
                 id="email"
                 aria-label="Your email"
                 required
@@ -77,7 +77,7 @@ const Contact = () => {
             <div className="flex flex-col gap-1" data-aos="zoom-in-up">
               <label htmlFor="msg">Message</label>
               <textarea
-                className="bg-transparent border border-accent min-h-[100px] resize-none"
+                className="bg-transparent border border-yellow-500 min-h-[100px] resize-none"
                 id="msg"
                 aria-label="Your message"
                 rows={8}
@@ -87,7 +87,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="bg-accent p-2 px-6 hover:bg-accent-dark transition duration-300"
+              className="bg-yellow-500 p-2 px-6 hover:bg-black transition duration-300"
               data-aos="zoom-in-up"
             >
               Send
